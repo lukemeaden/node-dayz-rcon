@@ -1,0 +1,35 @@
+{
+  "name": "node-dayz-rcon",
+  "version": "0.0.1",
+  "description": "A node script to run RCON commands on a DayZ server",
+  "main": "./index.js",
+  "scripts": {
+    "start": "babel-node -- ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukemeaden/node-dayz-rcon.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "rcon",
+    "dayz",
+    "discord",
+    "discordjs"
+  ],
+  "author": "Luke Meaden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukemeaden/node-dayz-rcon/issues"
+  },
+  "homepage": "https://github.com/lukemeaden/node-dayz-rcon#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "battleye": "Mystou/battleye.git#master"
+  }
+}
